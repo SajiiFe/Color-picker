@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>color picker</title>
+</head>
+<body>
+	<div class="teller">
+		
+	</div>
+	<div class="container">
+		<div class="result">
+			<div class="result-text">rgb(234,230,242)</div>
+			<img src="copy-icon.png" class="copy-img">
+		</div>
+		<div>
+			<div class="container-1"> 
+				<div class="red , progress"><div class="r-percentage"></div><div class="Rcircle"></div></div>
+			</div>
+			<div class="container-2"> 
+				<div class="green , progress"><div class="g-percentage"></div><div class="Gcircle"></div></div>
+			</div>
+			<div class="container-3"> 
+				<div class="blue , progress"><div class="b-percentage"></div><div class="Bcircle"></div></div>
+			</div>
+		</div>
+		<div class="ckeckboxes">
+			<input type="radio" name="" checked class="check-rgb"><span class="rgb-span"><span style="color: red;">r</span><span style="color: green;">g</span><span style="color: blue;">b</span></span>
+			<input type="radio" name="" class="check-hsl" disabled><span class="hsl-span">hsl</span>
+			<input type="radio" name="" class="check-hex"><span class="hex-span"><span class="hex-span-h">h</span><span class="hex-span-e">e</span><span class="hex-span-x">x</span></span>
+		</div>
+	</div>
+	<footer>
+		<div>
+			<input type="checkbox" class="set-background-color-input"><p class="set-background-color">Set this color as background</p>
+		</div>
+		<!-- <div>	
+			<input type="checkbox" class="set-text-color-input"><p class="set-text-color">set this color as text color</p>
+		</div> -->
+		<div>
+			<input type="checkbox" class="set-copy-background-color-input"><p class="set-copy-background-color">set this color as color of background of copy icon</p>
+		</div>
+	</footer>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
