@@ -249,5 +249,8 @@ footer {
 }
 footer p ,footer input {
 	display: inline-block;
-        margin-top: 5px;
 }
+footer div{
+        margin-top: 5px;
+        margin-bottom: 0px;
+} 
