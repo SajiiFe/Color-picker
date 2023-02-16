@@ -245,8 +245,9 @@ body {
 footer {
 	position: fixed;
 	bottom: 0;
-	font: 12px black;
+	font: 9px black;
 }
 footer p ,footer input {
 	display: inline-block;
+        margin-top: 5px;
 }
